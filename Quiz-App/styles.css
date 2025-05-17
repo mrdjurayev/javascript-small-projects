@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App__container {
+    border: 0.5px solid #999;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.App__container #appname {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+}
+
+.App__container #question {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 8px;
+}
+
+.App__container:first-of-type div{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.answer input {
+    appearance: none;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    transition: 0.2 all linear;
+    margin-right: 5px;
+}
+
+.answer input:checked {
+    border: 6px solid black;
+}
+
+.answer label {
+    font-size: 18px;
+}
+
+.App__container button {
+    margin: 20px 8px;
+    padding: 8px 24px;
+    background-color: #393939;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.App__container #result {
+    margin: 8px;
+}
+
+
+
+
